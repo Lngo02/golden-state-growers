@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+ <div id="page-wrapper">
+  <header id="header">
+    <div class="logo">
+      <img
+        id="header-img"
+        src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2017/12/attachment_88263233-e1512313341239.png?auto=format&q=60&fit=max&w=930"
+        alt="original trombones logo"
+      />
+    </div>
+    
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#features">Features</a></li>
+        <li><a class="nav-link" href="#how-it-works">How It Works </a></li>
+        <li><a class="nav-link" href="#pricing">Pricing</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section id="hero">
+    <h2>A farm. A home. A rural hub for community.</h2>
+    <p> For learning, growing, and exploring the natural world </p>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input
+             class="form-field"
+             name="email"
+             id="email"
+             type="email"
+             placeholder="Enter your email"
+             required
+      />
+      <input
+              class="form-submit"
+              id="submit"
+              type="submit"
+              value="Get Started"
+      />
+    </form>        
+  </section>
+  
+  <div class="container">
+    <section id="features">
+      <div class="grid">
+        <div class="icon"><img src="https://img.icons8.com/pastel-glyph/64/000000/vegetables-box.png"></div>
+        <div class="desc">
+          <h2>Premium organic produce.</h2>
+          <p> We sell our vegetables to households through a Community Shared Agriculture Program (CSA). Our vegetable boxes include carrots, garlic, onions, spinach, tomatores, broccoli, aspaaragus, seasonal salad greens, squash, and more!</p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="icon"><img src="https://img.icons8.com/ios/64/000000/hand-planting.png"></div>
+        <div class="desc">
+          <h2>Taste and stewardship.</h2>
+          <p> Our food is flavorful and nutritious because our soils are alive and thriving. Our work as orgnanic farmers is one way we can steward our resources and take care of our planet. We work to influence climate change, soil erosion, and water conservation on a daily basis.</p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="icon"><img src="https://img.icons8.com/ios/64/000000/volunteering.png"></div>
+        <div class="desc">
+          <h2>An access point for the community.</h2>
+          <p> We love helping our local community create and maintain a meaningful connection to their food and to the land. Whether it be through farm tours, or recipe exchanges, we look forward to connecting with you!</p>
+        </div>
+      </div>
+    </section>
+    
+    <section id="how-it-works">
+      <iframe 
+              id="video"
+              width="560" 
+              height="315" 
+              src="https://www.youtube.com/embed/PPCGevYDTf8" 
+              frameborder="0" 
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen></iframe>
+    </section>
+    
+    <section id="pricing">
+       <div class="product" id="small-share">
+         <div class="level">Small Shares </div>
+         <h2>$325-425 / season</h2>
+         <ol>
+           <li>Biweekly shares of 7-8 items for singles, or couples.</li>
+         </ol>
+         <button class="btn">Select</button>
+      </div>
+      <div class="product" id="regular-share">
+         <div class="level">Regular Shares </div>
+         <h2>$595-795 / season</h2>
+         <ol>
+           <li>Weekly shares of 7-8 items, good for a veggie-loving couple or small family.</li>
+         </ol>
+         <button class="btn">Select</button>
+      </div>
+      <div class="product" id="large-share">
+         <div class="level">Large Shares </div>
+         <h2>$895-1,095 / season</h2>
+         <ol>
+           <li>Weekly shares of 8-10 items, good for a veggie-loving family/household!</li>
+         </ol>
+         <button class="btn">Select</button>
+      </div>
+    </section>
+  </div>
+ 
+</div>
+</body>
+</html>
